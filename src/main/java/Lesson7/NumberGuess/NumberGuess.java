@@ -1,4 +1,4 @@
-package Lesson7;
+package Lesson7.NumberGuess;
 
 import java.util.Scanner;
 
@@ -23,7 +23,7 @@ public class NumberGuess {
         Scanner sc = new Scanner(System.in);
         int currentGuess = 0;
         int attempts = 0;
-        System.out.println("Enter length of number(max9):");
+        System.out.println("Enter length of number(max 9):");
         int lenOfNum = sc.nextInt();
         int selectedNum = numGenerator(lenOfNum);
 //        System.out.println(selectedNum);
